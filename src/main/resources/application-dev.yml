@@ -1,0 +1,15 @@
+
+
+server:
+  port: ${PORT:8090}
+
+spring:
+
+  data:
+    mongodb:
+      url: 127.0.0.1:27017
+      database: reactivegridfsissue
+
+  logging:
+    level:
+      ROOT: DEBUG

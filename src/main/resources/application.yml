@@ -1,0 +1,14 @@
+
+context:
+  initializer:
+    classes: it.github.issues.reactivegridfsissue.Beans
+
+spring:
+
+  profiles:
+    active: dev
+
+  data:
+    mongodb:
+      repositories:
+        type: none
